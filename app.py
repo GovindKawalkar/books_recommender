@@ -4,6 +4,8 @@ import pickle
 import streamlit as st
 import numpy as np
 import logging
+import logging as logger
+
 
 
 from books_recommender.logger.log import logging
