@@ -6,9 +6,7 @@ import numpy as np
 import logging
 import logging as logger
 
-
-
-from books_recommender.logger.log import logging
+from books_recommender.logger.log import logger
 from books_recommender.config.configuration import AppConfiguration
 from books_recommender.pipeline.training_pipeline import TrainingPipeline
 from books_recommender.exception.exception_handler import AppException
