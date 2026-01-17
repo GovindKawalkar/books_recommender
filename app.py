@@ -3,6 +3,8 @@ import sys
 import pickle
 import streamlit as st
 import numpy as np
+import logging
+
 
 from books_recommender.logger.log import logging
 from books_recommender.config.configuration import AppConfiguration
